@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    background-color: #f2f2f2;
+  }
+}
+
+#banner {
+  background-image: linear-gradient(green, yellow, blue);
+  color: blue;
+  font-size: 50px;
+  text-align: left;
+  font-family: 'Passion One', cursive;
+}
+
+header {
+  font-weight: bolder;
+    background-color: blue;
+  color: white;
+}
+
+#main-doc {
+  margin-left: 230px;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Passion One', cursive;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  background: #f2f2f2;
+  padding: 5px;
+  
+}
+
+#gi {
+  float: right;
+  height: 200px;
+  width: 210px;
+  position: relative;
+}
+
+#nogi {
+   float: right;
+  height: 200px;
+  width: 230px;
+  position: relative;
+}
+
+#belts {
+  float: right;
+  height: 240px;
+  width: 240px;
+  position: relative;
+}
+
+figcaption {
+    color: black;
+    font: italic smaller sans-serif;
+    padding: 0;
+    text-align: right;
+  position: relative;
+}
+
+#navbar {
+  color: blue;
+  font-size: 25px;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 10;
+  left: 0;
+  background: yellow;
+  padding: 8px 15px;
+  z-index: 1;
+  overflow-x: hidden;
+  line-height: 50px;
+
+}
+
+#navbar li, a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+#navbar a:hover {
+  color: green;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  background-image: linear-gradient(green, yellow, blue);
+  color: blue;
+  padding: 15px;
+}
